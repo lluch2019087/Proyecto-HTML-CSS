@@ -1,0 +1,114 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family:'Open Sans';
+    font-size: 16px;
+}
+header{
+    width: 100%;
+    height:700px ;
+    background-image:url(../imagenes/de.jpg);
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    overflow: hidden;
+    color: white;
+    text-align: center;
+}
+.logo1{
+    display:block;
+    margin:auto;
+    width: 1519px;
+    height: 60px;
+    
+}
+.logo{
+    display:block;
+    margin:auto;
+    width: 1519px;
+    height: 60px;
+    
+}
+header .textos{
+    margin-top: 35px;
+}
+header .titulo{
+    font-size: 70px;
+}
+header .subtitulo{
+    font-size:28px ;
+    font-weight: 300;
+    margin-bottom: 11px;
+}
+header .boton{
+    display: inline-block;
+    padding:3px;
+    width: 120px;
+    border: 2px solid white;
+    color: white;
+    font-size:19px ;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 16px;
+
+}
+.sobredesarrollador{
+    text-align: center;
+    font-size: 50px;
+    margin-bottom: 10px;
+    font-weight: 600;
+    
+}
+.contenedor{
+    width: 80%;
+    max-width: 1000px;
+    margin: auto;
+    overflow: hidden;
+    padding: 55px 0;
+
+}
+.slogan{
+    font-size: 24px;
+    font-weight: 300;
+    text-align: center;
+    margin-bottom: 15px;
+}
+.parrafo{
+    margin-bottom: 13px;
+    font-size: 18px;
+    font-weight: 300;
+    text-align:justify ;
+    line-height: 24px;
+    color:white;
+}
+.ea{
+    width: 100px;
+    margin-left: 10px;
+}
+.ea1{
+    width: 185px;
+    margin-left: 10px;
+}
+.ea2{
+    width: 135px;
+    margin-left: 10px;
+}
+
+.redes{
+    text-align: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.redes li{
+    display: inline-block;
+
+}
+
+.redes a{
+    padding: 10px;
+}

@@ -1,0 +1,59 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+
+.wrapper {
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../imagenes/lloros.png);
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.wrapper h1 {
+    font-size: 8rem;
+    background: #dae2f8; 
+    background: -webkit-linear-gradient(to right, #dae2f8, #d6a4a4); 
+    background: linear-gradient(to right, #dae2f8, #d6a4a4);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+
+
+}
+
+.wrapper p {
+    color:  #dae2f8;
+    font-size: 25px;
+    width: 500px;
+}
+
+.wrapper .buttons .btn {
+    background: transparent;
+    padding: 15px;
+    font-size: 15px;
+    border: 1px solid rgb(145, 154, 182);
+    color: black;
+    border-radius: 5px;
+    margin-top: 15px;
+    width: 130px;
+    outline: none;
+    cursor: pointer;
+    transition: 0.3s all ease;
+}
+
+.wrapper .buttons .btn1 {
+    background: rgb(12, 12, 12);
+    color: white;
+}
